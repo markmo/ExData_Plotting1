@@ -22,7 +22,7 @@ with(range, {
   plot(dates, Sub_metering_1, type="l", col="black", xlab="", ylab="Energy sub metering")
   lines(dates, Sub_metering_2, col="red")
   lines(dates, Sub_metering_3, col="blue")
-  legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=c(1, 1, 1, 1), col=c("black", "red", "blue"))
+  legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=c(1, 1, 1, 1), col=c("black", "red", "blue"), bty="n", cex=0.9)
 
   # bottom-right - line plot of Global Reactive Power by time
   plot(dates, Global_reactive_power, type="l", xlab="datetime")
